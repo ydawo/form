@@ -1,0 +1,65 @@
+body {
+  background-image: url(https://media.istockphoto.com/photos/chinese-zodiac-tiger-2022-chinese-new-year-celebration-background-picture-id1365305604?k=20&m=1365305604&s=612x612&w=0&h=H_NuYaazXhbL9WKH45LtpI8AaV0_5SZdpE3cyj3sIHU=);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+fieldset {
+  background-color: rgba(248, 235, 235, 0.308);
+  margin: 250px 90px;
+  padding: 16px 32px;
+  border: 5px solid red;
+  border-radius: 10px;
+  border-top: 15px solid red;
+  box-shadow: 0 0 6px 5px;
+}
+
+legend {
+  font-size: 40px;
+  padding: 0 4px;
+  color: gold;
+  text-shadow: 3px 3px #000;
+  font-family: "Lobster", cursive;
+}
+
+label {
+  color: #fff;
+  display: block;
+  margin-bottom: 5px;
+  font-size: 20px;
+  font-family: "EB Garamond", serif;
+}
+
+input {
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #999;
+  border-radius: 5px;
+}
+
+input[type="text"],
+[type="number"] {
+  width: 240px;
+  font-size: 15px;
+}
+
+textarea {
+  min-height: 128px;
+  min-width: 80%;
+  padding: 8px;
+  border: 1px solid #999;
+  border-radius: 8px;
+  background-color: rgba(248, 235, 235, 0.308);
+  font-size: 20px;
+}
+
+input[type="submit"],
+input[type="reset"] {
+  padding: 8px 16px;
+  border-radius: 8px;
+  background-color: #333;
+  color: #fff;
+  font-size: 14px;
+}
